@@ -12,13 +12,13 @@ div {
   text-align: center;
   display: block;
   text-decoration: none;
-  margin: 0em  1em 1em;
+  margin: .5em  1em 1em;
 }
 
 a {
   border-radius: 8px;
   text-align: center;
-  padding: 0.7em;
+  padding: .7em;
   text-decoration: none;
 }
 
@@ -40,26 +40,38 @@ a {
   display: inline-block;
 }
 
-.btn:hover {}
+.btn:hover {
+  background-color: #000;
+}
 
 .btn-subtle {
   color: #fff;
   background-color: #ccc;
 }
 
-.btn-subtle:hover {}
+.btn-subtle:hover {
+  background-color: #666;
+}
 
 .btn-ghost {
-  border: #ccc;
   color: #333;
   background-color: #fff;
 }
 
-.btn-ghost:hover {}
+.btn-ghost:hover {
+  background-color: #666;
+  color: #fff;
+}
 
 .btn-warning {
   color: #fff;
   background-color: #f33;
 }
 
-.btn-warning:hover {}
+.btn-warning:hover {
+  background-color: #933;
+}
+
+.big-ghost {
+  padding: .9em;
+}
