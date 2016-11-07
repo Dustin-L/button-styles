@@ -8,6 +8,53 @@ html {
 }
 
 div {
-  padding: .5rem;
   text-align: center;
+  display: block;
+  text-decoration: none;
+  padding: .4em .75em .3em
 }
+
+a {
+    border-radius: 8px;
+    border-width: 3px;
+    padding: .5rem;
+    text-align: center;
+    text-decoration: none;
+}
+
+.btn-small {
+  font-size: .875rem;
+}
+
+.btn-big {
+  font-size: 1.5rem;
+}
+
+.btn {
+  font-size: 1.125rem;
+  color: #fff;
+  background-color: #333;
+}
+
+.btn:hover {}
+
+.btn-subtle {
+  color: #fff;
+  background-color: #ccc;
+}
+
+.btn-subtle:hover {}
+
+.btn-ghost {
+  color: #333;
+  background-color: #fff;
+}
+
+.btn-ghost:hover {}
+
+.btn-warning {
+  color: #fff;
+  background-color: #f33;
+}
+
+.btn-warning:hover {}
