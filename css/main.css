@@ -8,18 +8,17 @@ html {
 }
 
 div {
-  margin: 15px;
+  padding: .4em .75em .3em;
   text-align: center;
   display: block;
   text-decoration: none;
-  padding: .4em .75em .3em;
+  margin: 0em  1em 1em;
 }
 
 a {
   border-radius: 8px;
-  border-width: 3px;
-  padding: .5rem;
   text-align: center;
+  padding: 0.7em;
   text-decoration: none;
 }
 
@@ -27,12 +26,15 @@ a {
   font-size: .875rem;
 }
 
+.btn-medium {
+  font-size: 1.125rem;
+}
+
 .btn-big {
   font-size: 1.5rem;
 }
 
 .btn {
-  font-size: 1.125rem;
   color: #fff;
   background-color: #333;
   display: inline-block;
@@ -48,6 +50,7 @@ a {
 .btn-subtle:hover {}
 
 .btn-ghost {
+  border: #ccc;
   color: #333;
   background-color: #fff;
 }
